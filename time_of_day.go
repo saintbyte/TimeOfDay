@@ -21,7 +21,6 @@ func Parse(inputTime time.Time) TimeOfDay {
 	var dayNight string
 	var partOfDay2 string
 	var ampm string
-
 	switch {
 	case hour >= 5 && hour < 12:
 		dayNight = Day
